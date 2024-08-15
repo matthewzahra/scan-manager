@@ -1,5 +1,15 @@
 # Scan Manager Web App - developed by James Housden, Matthew Zahra, and Samiksha Vanga for Go Reply.
 
+This application was developed on Google Cloud Platform during an internship at Go Reply and presented back to the rest of the company and its partners.
+
+It serves as a maanger for medical information, allowing patients to upload text, DICOM or NIfTI files.
+
+For text and NIfTI files, it employs Generative AI to give useful sumamries/insights, while for DICOM files, users can use the state of the art OHIF-viewer to look through the 3D representation of the scans.
+
+The application also enforces proper authentication with the Google accounts of users by invoking Firebase.
+
+Below is the setup guide that was given to Go Reply in order to setup the application themselves - it requires a working Google Cloud Project with Billing enabled.
+
 ## TO SETUP APPLICATION:
 
 ### Folder Structure (for implemented project):
